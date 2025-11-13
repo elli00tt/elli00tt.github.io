@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Survey</title>
+  <meta name="author" content="Elliott Dolan">
+  <meta name="description" content="Feedback survey for ELD art showcase.">
+  <meta name="keywords" content="art feedback, form, survey, student project">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="lists.html">Process & Colors</a></li>
+      <li><a href="survey.html">Feedback</a></li>
+      <li><a href="links.html">Resources</a></li>
+    </ul>
+  </nav>
+
+  <h1>Feedback Survey</h1>
+  <p>Please share your thoughts on my art project!</p>
+
+  <form>
+    <fieldset>
+      <legend>About You</legend>
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+    </fieldset>
+
+    <fieldset>
+      <legend>Favorites</legend>
+      <p>Which piece is your favorite?</p>
+      <label><input type="radio" name="favorite" value="Pencil"> Pencil Drawing</label><br>
+      <label><input type="radio" name="favorite" value="Warm"> Warm Colors</label><br>
+      <label><input type="radio" name="favorite" value="Triadic"> Triadic Neon</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Feedback</legend>
+      <p>What aspects did you like? (Check all that apply)</p>
+      <label><input type="checkbox" name="detail" value="Detail"> Detail/Line Work</label><br>
+      <label><input type="checkbox" name="color" value="Color"> Color Use</label><br>
+      <label><input type="checkbox" name="creativity" value="Creativity"> Creativity</label><br><br>
+
+      <label for="comments">Additional Comments:</label><br>
+      <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Write your thoughts here..."></textarea>
+    </fieldset>
+
+    <input type="submit" value="Submit Feedback">
+  </form>
+</body>
+</html>
+
+
