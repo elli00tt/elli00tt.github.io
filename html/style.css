@@ -1,0 +1,40 @@
+@font-face {
+		font-family: 'hello';
+		src: url('../font/hellograd.ttf');
+}
+
+
+
+
+
+
+h1 {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+	font-family: 'hello';
+}
+
+
+.highlighted {
+    color: red;
+}
+
+
+#artist-bio {
+    background-color: rgba(0, 0, 255, 0.5); /* blue with 50% transparency */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+nav ul > li > a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
