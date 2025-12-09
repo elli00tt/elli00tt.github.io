@@ -107,12 +107,6 @@ img {
   margin-left: auto;
   margin-right: 0;
 }
-.small-flower {
-  width: 70%;   /* You can change this number */
-  margin: 0 auto;
-}
-
-
 
 
 /* ========== FORM STYLING ========== */
@@ -188,7 +182,7 @@ tr:nth-child(even) {
 }
 
 .grid-item {
-  border: 3px solid black;   /* FIXED: no more thick red border */
+  border: 3px solid black;  
   flex: 1 1 calc(45% - 40px);
   background-color: rgba(255, 255, 255, 0.1);
   padding: 20px;
@@ -200,6 +194,13 @@ tr:nth-child(even) {
   height: auto;
   border-radius: 10px;
 }
+
+#purpleflower{
+	margin-left : 25%;
+	margin-right: 25%;
+}
+
+
 
 /* ========== RESPONSIVE PARAGRAPH ======== */
 
@@ -226,3 +227,34 @@ tr:nth-child(even) {
   }
 }
 
+.social-links {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  margin: 25px auto;
+  border-radius: 12px;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.social-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.social-links li {
+  margin: 10px 0;
+}
+
+.social-links a {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #111;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff6600;
+}
